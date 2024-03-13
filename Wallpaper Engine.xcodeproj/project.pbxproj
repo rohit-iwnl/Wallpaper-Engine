@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		B617E04F2BA14B67001F5018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617E04E2BA14B67001F5018 /* AppDelegate.swift */; };
 		B617E0512BA14B67001F5018 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617E0502BA14B67001F5018 /* SceneDelegate.swift */; };
-		B617E0532BA14B67001F5018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617E0522BA14B67001F5018 /* ViewController.swift */; };
-		B617E0562BA14B67001F5018 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B617E0552BA14B67001F5018 /* Base */; };
+		B617E0532BA14B67001F5018 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617E0522BA14B67001F5018 /* MainTabBarViewController.swift */; };
 		B617E0582BA14B68001F5018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617E0572BA14B68001F5018 /* Assets.xcassets */; };
 		B617E05B2BA14B68001F5018 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B617E05A2BA14B68001F5018 /* Base */; };
+		B617E06C2BA14E68001F5018 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617E06B2BA14E68001F5018 /* DownloadViewController.swift */; };
+		B617E06E2BA14E88001F5018 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617E06D2BA14E88001F5018 /* SearchViewController.swift */; };
+		B617E0702BA14E8F001F5018 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617E06F2BA14E8F001F5018 /* HomeViewController.swift */; };
+		B617E0722BA14E95001F5018 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617E0712BA14E95001F5018 /* UpcomingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B617E04B2BA14B67001F5018 /* Wallpaper Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallpaper Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B617E04E2BA14B67001F5018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B617E0502BA14B67001F5018 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B617E0522BA14B67001F5018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B617E0552BA14B67001F5018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B617E0522BA14B67001F5018 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		B617E0572BA14B68001F5018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B617E05A2BA14B68001F5018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B617E05C2BA14B68001F5018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B617E06B2BA14E68001F5018 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		B617E06D2BA14E88001F5018 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B617E06F2BA14E8F001F5018 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B617E0712BA14E95001F5018 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		B617E04D2BA14B67001F5018 /* Wallpaper Engine */ = {
 			isa = PBXGroup;
 			children = (
+				B617E0622BA14DEB001F5018 /* Controllers */,
 				B617E04E2BA14B67001F5018 /* AppDelegate.swift */,
 				B617E0502BA14B67001F5018 /* SceneDelegate.swift */,
-				B617E0522BA14B67001F5018 /* ViewController.swift */,
-				B617E0542BA14B67001F5018 /* Main.storyboard */,
+				B617E0522BA14B67001F5018 /* MainTabBarViewController.swift */,
 				B617E0572BA14B68001F5018 /* Assets.xcassets */,
 				B617E0592BA14B68001F5018 /* LaunchScreen.storyboard */,
 				B617E05C2BA14B68001F5018 /* Info.plist */,
 			);
 			path = "Wallpaper Engine";
+			sourceTree = "<group>";
+		};
+		B617E0622BA14DEB001F5018 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B617E06B2BA14E68001F5018 /* DownloadViewController.swift */,
+				B617E06D2BA14E88001F5018 /* SearchViewController.swift */,
+				B617E06F2BA14E8F001F5018 /* HomeViewController.swift */,
+				B617E0712BA14E95001F5018 /* UpcomingViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +144,6 @@
 			files = (
 				B617E0582BA14B68001F5018 /* Assets.xcassets in Resources */,
 				B617E05B2BA14B68001F5018 /* Base in Resources */,
-				B617E0562BA14B67001F5018 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +154,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B617E0532BA14B67001F5018 /* ViewController.swift in Sources */,
+				B617E06E2BA14E88001F5018 /* SearchViewController.swift in Sources */,
+				B617E0532BA14B67001F5018 /* MainTabBarViewController.swift in Sources */,
 				B617E04F2BA14B67001F5018 /* AppDelegate.swift in Sources */,
+				B617E06C2BA14E68001F5018 /* DownloadViewController.swift in Sources */,
 				B617E0512BA14B67001F5018 /* SceneDelegate.swift in Sources */,
+				B617E0722BA14E95001F5018 /* UpcomingViewController.swift in Sources */,
+				B617E0702BA14E8F001F5018 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B617E0542BA14B67001F5018 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B617E0552BA14B67001F5018 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B617E0592BA14B68001F5018 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +309,6 @@
 				INFOPLIST_FILE = "Wallpaper Engine/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +336,6 @@
 				INFOPLIST_FILE = "Wallpaper Engine/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
